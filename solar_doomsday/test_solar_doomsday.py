@@ -17,3 +17,30 @@ def test_finds_recurring_squares():
     actual = solution(area)
 
     assert actual == expected
+
+
+def test_input_zero():
+    area = 0
+    expected = []
+
+    actual = solution(area)
+
+    assert actual == expected
+
+
+def test_input_minimum():
+    area = 1
+    expected = [1]
+
+    actual = solution(area)
+
+    assert actual == expected
+
+
+def test_input_maximum():
+    area = 1000000
+    expected = [1000000]
+
+    actual = solution(area)
+
+    assert actual == expected
