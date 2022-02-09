@@ -1,4 +1,4 @@
-from Queue import Queue
+from queue import Queue
 
 
 def solution(src, dest):
